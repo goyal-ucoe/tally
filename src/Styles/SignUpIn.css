@@ -1,0 +1,177 @@
+.sign_up_in .form-signin {
+    width: 100%;
+    max-width: 444px;
+    padding: 15px;
+    margin: auto;
+  }
+
+  .customBackBtnAlign{
+      top: 15px;
+      left: 15px;
+  }
+
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+  .form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .form-signin .form-control:focus {
+    z-index: 2;
+  }
+
+  .form-signin input[type="text"].firstName {
+    display: inline;
+    width: 50%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .form-signin input[type="text"].lastName {
+    display: inline;
+    width: calc(50% + 1px);
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-left: -1px;
+  }
+
+  .form-signin input[type="email"] {
+    margin-top: -1px;
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .form-signin input[type="email"].signUp {
+    margin-top: -1px;
+    margin-bottom: -1px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+  }
+
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  
+  .form-signin input[type="password"].signUp,.form-signin input[type="text"].signUp {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+
+  .passwordStrength{
+    height:13px;
+  }
+
+  .passwordStrength .padding_right{
+    padding-right: 3px!important;
+  }
+
+  .passwordStrengthShower{
+    height:3px;
+    border-radius:5px;
+    background-color: lightgrey;
+  }
+
+  .passwordStrength.weak .weak .passwordStrengthShower,
+  .passwordStrength.medium .weak .passwordStrengthShower,
+  .passwordStrength.strong .weak .passwordStrengthShower{
+    background-color: red;
+  }
+
+  .passwordStrength.medium .medium .passwordStrengthShower,
+  .passwordStrength.strong .medium .passwordStrengthShower{
+    background-color: orange;
+  }
+
+  .passwordStrength.strong .strong .passwordStrengthShower{
+    background-color: green;
+  }
+
+  .passwordStrengthTextSize,.mandatoryTextSize{
+    font-size: 9px;
+  }
+
+  .sign_up_in.bg-image{
+    background-color: #878c00;
+    background-image: url("https://www.transparenttextures.com/patterns/blizzard.png");
+  }
+
+  .border_light_grey{
+      border-color:#c2c5c7;
+  }
+
+  .roundIcon{
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    color: #615e5e;
+    cursor: pointer;
+  }
+
+  .roundIcon:hover{
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+  }
+
+  .position_fixed{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .link_font_size{
+      font-size: .9rem;
+  }
+  .link_outline:focus{
+      outline: none;
+      box-shadow: none;
+  }
+
+  .passwordEye{
+    right:10px;
+    top:12px;
+    z-index: 9;
+    color: grey;
+  }
+
+  .passwordMatch{
+    top:12px;
+    right:10px;
+    z-index: 9;
+    font-size: small;
+  }
+
+  input.validationError{
+    box-shadow: 0 0 3px #f44336;
+    border-color: #f44336;
+    z-index: 99;
+  }
+  input.validationError::placeholder{
+    color:red;
+    opacity: .8;
+  }
+  input.validationError:-ms-input-placeholder{
+    color:red;
+    opacity: .8;
+  }
+  input.validationError::-ms-input-placeholder{
+    color:red;
+    opacity: .8;
+  }
